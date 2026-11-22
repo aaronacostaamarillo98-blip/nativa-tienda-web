@@ -35,6 +35,11 @@ Hoy los productos están ilustrados con código. Para un cliente real, cambiarlo
 ## Voz
 Voseo paraguayo, cálido y simple: "Elegí, pagá online y recibilo en tu casa". Nada de promesas de salud ni de resultados en la piel. No inventar reseñas ni cantidades de ventas.
 
+## Movimiento
+- **GSAP + ScrollTrigger** (autoalojados en `js/`): el título del inicio entra palabra por palabra, las secciones y tarjetas suben suave al hacer scroll. Curvas `expo.out` / `power3.out`, nunca rebote en textos.
+- **Lottie** (`anim/check.json`): tilde que se dibuja para confirmar acciones (turno confirmado, producto agregado).
+- Todo el movimiento vive en `js/motion.js`. Sin JS el contenido se ve completo; con `prefers-reduced-motion` no se anima nada.
+
 ## Calidad
 - Contraste mínimo 4,5:1 en el texto.
 - Foco visible en terracota.
